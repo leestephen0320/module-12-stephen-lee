@@ -6,6 +6,7 @@ export default function Header() {
     <div style={{
       display: 'flex',
       justifyContent: 'space-between',
+      padding: '20px',
     }}>
       <div>
         <h2>Stephen Lee</h2>
