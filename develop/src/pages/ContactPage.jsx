@@ -55,15 +55,14 @@ export default function ContactPage() {
         // Form is valid, proceed with submission logic
         console.log('Form submitted:', formData);
         // Reset form
-        setFormData({ name: '', email: '' });
+        setFormData({ name: '', email: '', message:'' });
       }
     };
   
     return (
       <form onSubmit={handleSubmit}>
         <div class='form-group'>
-          <label>
-            Name:
+          <label>Name:</label>
             <input
               class="form-control"
               type="name"
@@ -71,12 +70,10 @@ export default function ContactPage() {
               value={formData.name}
               onChange={handleChange}
             />
-          </label>
           {errors.name && <span style={{ color: 'red' }}>{errors.name}</span>}
         </div>
         <div>
-          <label>
-            Email:
+          <label>Email: </label>
             <input
               class="form-control"
               type="email"
@@ -84,20 +81,20 @@ export default function ContactPage() {
               value={formData.email}
               onChange={handleChange}
             />
-          </label>
           {errors.email && <span style={{ color: 'red' }}>{errors.email}</span>}
         </div>
         <div>
-          <label>
-            Message:
+          <label>Message</label>
             <textarea
               class="form-control"
               type="message"
               name="message"
               value={formData.message}
               onChange={handleChange}
+              style={{
+                height:'100px'
+              }}
             />
-          </label>
           {errors.message && <span style={{ color: 'red' }}>{errors.message}</span>}
         </div>
         <button type="submit">Submit</button>

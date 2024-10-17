@@ -1,10 +1,11 @@
 import './UI/Logo/ImageHover.css';
-import githubLogo from './UI/Logo/Images/github-logo.png';
-import linkedInLogo from './UI/Logo/Images/linkedin-logo.png';
-import aniListLogo from './UI/Logo/Images/anilist-logo.png';
+import githubLogo from './UI/Images/github-logo.png';
+import linkedInLogo from './UI/Images/linkedin-logo.png';
+import aniListLogo from './UI/Images/anilist-logo.png';
 
 export default function Footer() {
     return (
+        <footer>
         <div style={{
             display: 'flex',
             justifyContent: 'center',
@@ -38,5 +39,6 @@ export default function Footer() {
                 </a>
             </div>
         </div>
+        </footer>
     );
 }

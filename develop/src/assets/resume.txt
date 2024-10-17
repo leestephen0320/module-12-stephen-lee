@@ -1,0 +1,14 @@
+Front-end Proficiencies
+HTML
+CSS
+JavaScript
+JQuery
+responsive design
+React
+Bootstrap
+Back-end Proficiences
+APIs
+Node
+Express
+PostgressSQL, PGAdmin
+REST

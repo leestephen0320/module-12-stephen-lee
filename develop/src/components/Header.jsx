@@ -3,6 +3,7 @@ import Navigation from './Navigation';
 
 export default function Header() {
   return (
+    <header>
     <div style={{
       display: 'flex',
       justifyContent: 'space-between',
@@ -15,5 +16,6 @@ export default function Header() {
         <Navigation />
       </div>
     </div>
+    </header>
   );
 }

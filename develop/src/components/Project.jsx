@@ -1,5 +1,5 @@
 import React from "react";
-import githubLogo from '../Logo/Images/github-logo.png'
+import githubLogo from './UI/Images/github-logo.png'
 import PropTypes from 'prop-types';
 
 const Card = ({title, link, imgSrc}) => {
