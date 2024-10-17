@@ -1,65 +1,50 @@
-// This is a static page mocking an "About Us" section for our fake user data
+import Card from '../components/UI/ProfileSections/Card'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 export default function PortfolioPage() {
     return (
-      <div className="container pt-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
-        <section className="features-icons bg-light text-center m-4">
-          <div className="container">
-            <div className="row p-2">
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-window m-auto text-primary" />
-                  </div>
-                  <h3>Fully Responsive</h3>
-                  <p className="lead mb-0">
-                    This theme will look great on any device, no matter the size!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-layers m-auto text-primary" />
-                  </div>
-                  <h3>Bootstrap 5 Ready</h3>
-                  <p className="lead mb-0">
-                    Featuring the latest build of the new Bootstrap 5 framework!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-terminal m-auto text-primary" />
-                  </div>
-                  <h3>Easy to Use</h3>
-                  <p className="lead mb-0">
-                    Ready to use with your own content, or customize the source
-                    files!
-                  </p>
-                </div>
-              </div>
-            </div>
+      // <div>
+        
+        
+      //   <div className='row' >
+      //     <div className='col '>
+      //       <Card title='Weather Forecast Website' link='https://github.com/leestephen0320/module-09-challenge' imgSrc='https://drupal-prod.visitcalifornia.com/sites/default/files/styles/fluid_1920/public/arroyo%20burro%20beach%20santa%20barbara%20damian%20gadal%201280x642.jpg.webp?itok=hTEL3h5r'/>
+      //     </div>
+      //     <div className='col mx-6'>
+      //       <Card title='Weather Forecast Website' link='https://github.com/leestephen0320/module-09-challenge' imgSrc='https://drupal-prod.visitcalifornia.com/sites/default/files/styles/fluid_1920/public/arroyo%20burro%20beach%20santa%20barbara%20damian%20gadal%201280x642.jpg.webp?itok=hTEL3h5r'/>
+      //     </div>
+      //   </div>
+
+
+      // </div>
+      <div>
+        <h2>Portfolio</h2>
+        <div className='row'>
+          <div class="card-group">
+            <Card title='README Generator' link='https://github.com/leestephen0320/README-stephen-lee' imgSrc='https://silentlad.com/static/d5eedc11e4a6ab67570e5ce78ea67d5f/ad531/r2.png'/>
+
+            <Card title='Tow Truck Simulation' link='https://github.com/leestephen0320/module-8-challenge-stephen-lee' imgSrc='https://lirp.cdn-website.com/b3cc06cc/dms3rep/multi/opt/Motorcycle+towing+Las+Vegas-640w.png'/>
           </div>
-        </section>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
+        </div>
+
+        <div className='row'>
+          <div class="card-group">
+            <Card title='Weather Forecast Website' link='https://github.com/leestephen0320/module-09-challenge' imgSrc='https://drupal-prod.visitcalifornia.com/sites/default/files/styles/fluid_1920/public/arroyo%20burro%20beach%20santa%20barbara%20damian%20gadal%201280x642.jpg.webp?itok=hTEL3h5r'/>
+
+            <Card title='Employee Tracker App' link='https://github.com/leestephen0320/module-10-challenge-stepehen-lee' imgSrc='https://www.insureon.com/-/media/blog/posts/2021/photo_group-of-employees-working-on-project.png?h=370&iar=0&w=750&rev=3faabd3c0f7c4e11966caaa037fa4fc8'/>
+          </div>
+        </div>
+
+        <div className='row'>
+          <div class="card-group">
+            <Card title='Personal Profile Website' link='https://github.com/leestephen0320/module-12-stephen-lee' imgSrc='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQKDkW6Irk6pvAXWLRa6jZe0RStRumZ74K3g&s'/>
+
+            <Card title='Street Fighter 6 Website' link='https://github.com/achoi2k20/button-mashing' imgSrc='https://www.psu.com/wp/wp-content/uploads/2023/02/Street-Fighter-6-PS5-Wallpapers-01-768x432.jpg'/>
+          </div>
+        </div>
+
       </div>
     );
   }
