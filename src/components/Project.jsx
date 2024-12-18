@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 
 const Card = ({title, link, imgSrc}) => {
     return (
-        <div class="card text-white w-50">
-            <img class="card-img" src={imgSrc} alt={`Image for ${title}`}/>
-            <div class="card-img-overlay">
-                <h5 class="card-title">{title}</h5>
+        <div className="card text-white w-50">
+            <img className="card-img" src={imgSrc} alt={`Image for ${title}`}/>
+            <div className="card-img-overlay">
+                <h5 className="card-title">{title}</h5>
                 <a href = {link} target='_blank' rel='noopener noreferrer'>
                     <img src={githubLogo} width="90" height="auto" className='hover-image' 
                     style={{
