@@ -31,6 +31,14 @@ export default function PortfolioPage() {
           </div>
         </div>
 
+        <div className='row'>
+          <div class="card-group">
+            <Project title='Online Escape Room' link='https://github.com/vluu11/escAPI' imgSrc='https://images.squarespace-cdn.com/content/v1/5864ea486b8f5bbf07e01494/1494619558456-F3YUQD1XADZJ1FFQOIID/The+Attic-2.jpg'/>
+
+            <Project title='Joke Forum' link='https://github.com/Elimck11/DailyChuckle-' imgSrc='https://github.com/Elimck11/DailyChuckle-/blob/main/client/src/assets/logo.png?raw=true'/>
+          </div>
+        </div>
+
       </div>
     );
   }

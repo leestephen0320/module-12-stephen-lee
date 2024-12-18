@@ -3,7 +3,7 @@ export default function AboutPage() {
   return (
     <div>
       <h4>About Me</h4>
-      <img  src='https://media.licdn.com/dms/image/v2/C5635AQE6La_bZPlYag/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1614660002223?e=1729760400&v=beta&t=3WiJd_3nAp0NIN8CNrECtM66brLnu_8ndfPt64AFgtE'
+      <img  src='https://media.licdn.com/dms/image/v2/D5635AQGvhiv9cxe4eg/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1733523356559?e=1735084800&v=beta&t=bOVePlUeNXMMDQszmqt2kCC6ARb9LoycNb6GjrdtJkk'
       style={{
         height:'120px'
       }}/>
